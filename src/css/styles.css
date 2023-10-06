@@ -8,6 +8,7 @@
 @import url('./header.css');
 @import url('./sections/home.css');
 @import url('./sections/works.css');
+@import url('./sections/story.css');
 @import url('./footer.css');
 
 :root {
