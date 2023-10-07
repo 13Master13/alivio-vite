@@ -10,9 +10,9 @@
 
 // VIDEO
 const videoBtn = document.querySelector('#video-story-btn');
+const videoFile = document.querySelector('#video-story');
 const videoBtnIcon = document.querySelector('#story-video-btn-icon');
 const videoOverlay = document.querySelector('#video-story-overlay');
-const videoFile = document.querySelector('#video-story');
 videoBtn.addEventListener('click', function () {
   function toggleOverlay(event) {
     if (event.type === 'mouseleave') {
